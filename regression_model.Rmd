@@ -1,1 +1,21 @@
+---
+title: "Regression problem"
+author: "L. Somuray"
+date: "11/22/2020"
+output:
+  pdf_document: default
+  html_document:
+    keep_md: True
+---
+
+## Data Preprocessing
+
+First, we change the 'am' variable of the dataset which denotes if a car is automatic or manual transmission to a factor variable. We also other variables factor just as to make them discrete instead of continuous.
+
+```{r}
+library(datasets)
+data("mtcars")
+head(mtcars)
+```
+
 
